@@ -50,25 +50,27 @@ table {
 
 .plan {
 	background-color:#FF764E;
-	border-radius: 50px;
-	padding: 2%;
-	margin: 0px auto;
-	width: 33.33%;
+	border-radius: 20px;
+	padding: 1%;
+	margin: 0px;
+	width: 10%;
+	text-align: center;
 }
 .learn {
 	background-color:#5ED3EB;
-	padding: 2%;
-	margin: 0px auto;
-	border-radius: 25px;
-	width: 33.33%;
-
+	padding: 1%;
+	margin: 0px;
+	border-radius: 20px;
+	width: 10%;
+	text-align: center;
 }
 .getInv {
 	background-color:#FFCD69;
-	padding: 2%;
-	margin: 0px auto;
-	border-radius: 25px;
-    width: 33.33%;
+	border-radius: 20px;
+	padding: 1%;
+	margin: 0px;
+	width: 10%;
+	text-align: center;
 }
 .imgHeader{
 		border-radius: 50%;
@@ -77,23 +79,27 @@ table {
 		float: left;
 }
 .icon{
-	width: 10%;
+	width: 25%;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
 nav {
-	margin: 2.5% auto;
-	text-align: center;
-	width: 80%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
 	height: 50px;
 	font-family: Roboto Mono;
+	margin-top: 2%;
+	padding: 0 5%;
 }
-li {
-	display: inline;
-	margin: 5%;
 
+a {
+	text-decoration: none;
+	color: white;
 }
+
 body {
-	padding: 5%;
-	border: 5px solid black;
+	font-family: Roboto Mono;
 
 }
 h1 {
@@ -107,7 +113,7 @@ h1 {
 }
 .res {
 	width: 25%;
-	margin-left: 55%
+	margin-left: 55%;
 }
 .heading{
 	margin: 5%;
@@ -118,7 +124,44 @@ h1 {
 .main {
 	width: 90%;
 	margin: 0 auto;
-		border: 1px solid black;
+}
+div .history {
+	background-color: #DDB9A3;
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+
+}
+div .history p {
+	padding: 1.25%;
+}
+div .secHalf {
+	width:27.5%;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 5%;
+}
+  .footImg {
+	width: 100%;
+}
+
+.imgContainer{
+	width: 100%;
+	height: 275px;
+	overflow: hidden;
+}
+
+footer {
+	background-color: #F9E7DC;
+}
+.footNav {
+	padding: 2.5%;
+	margin-top: 0%;
+}
+
+span {
+	font-weight: bold;
 }
 
 
