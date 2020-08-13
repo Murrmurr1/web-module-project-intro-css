@@ -1,0 +1,196 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 62.5%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+.main {
+	font-family: Roboto Mono;
+}
+
+.plan {
+	background-color:#FF764E;
+	border-radius: 20px;
+	padding: 1%;
+	margin: 0px;
+	width: 10%;
+	text-align: center;
+}
+.learn {
+	background-color:#5ED3EB;
+	padding: 1%;
+	margin: 0px;
+	border-radius: 20px;
+	width: 10%;
+	text-align: center;
+}
+.getInv {
+	background-color:#FFCD69;
+	border-radius: 20px;
+	padding: 1%;
+	margin: 0px;
+	width: 10%;
+	text-align: center;
+}
+.imgHeader{
+		border-radius: 50%;
+		width:25%;
+		margin:0 5%;
+		float: left;
+}
+.icon{
+	width: 25%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+nav {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 50px;
+	font-family: Roboto Mono;
+	margin-top: 2%;
+	padding: 0 5%;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+body {
+	font-family: Roboto Mono;
+
+}
+h1 {
+	font-size: 2.7rem;
+	font-family: Chelsea Market;
+	padding: 2.5%;
+}
+
+.welc {
+	 padding-bottom: 2.5%;
+}
+.res {
+	width: 25%;
+	margin-left: 55%;
+}
+.heading{
+	margin: 5%;
+	padding-bottom: 5%;
+	text-align: center;
+
+}
+.main {
+	width: 90%;
+	margin: 0 auto;
+}
+div .history {
+	background-color: #DDB9A3;
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+
+}
+div .history p {
+	padding: 1.25%;
+}
+div .secHalf {
+	width:27.5%;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 5%;
+}
+  .footImg {
+	width: 100%;
+}
+
+.imgContainer{
+	width: 100%;
+	height: 275px;
+	overflow: hidden;
+}
+
+footer {
+	background-color: #F9E7DC;
+}
+.footNav {
+	padding: 2.5%;
+	margin-top: 0%;
+}
+
+span {
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
